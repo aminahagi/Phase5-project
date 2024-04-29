@@ -89,7 +89,7 @@ We welcome contributions from the community. If you'd like to contribute to this
    
 4. Create a pull request.
 
-## Contributors
+## Authors
 - Milton Kabute
 - Collins Cheruiyot
 - Thorne Makau
