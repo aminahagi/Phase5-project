@@ -4,8 +4,8 @@ This project analyzes wholesale food prices in Kenya, specifically for various c
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#Usage)
+- [Installation](#installation)
 - [Data Description](#Data-Description)
 - [Data Preprocessing](#Data-Preprocessing)
 - [Analysis and Visualization](#Analysis-and-Visualization)
@@ -20,6 +20,14 @@ This project analyzes wholesale food prices in Kenya, specifically for various c
 - Data visualization
 - Potential machine learning model building (if applicable)
 
+## Usage
+1. Clone the repository.
+
+          git clone git@github.com:pseudocmd/Phase5-project.git
+3. Install the required dependencies.
+4. Run the Jupyter Notebook or Python script to execute the code.
+5. Follow the instructions and comments in the code for specific tasks or analyses.
+
 ## Installation
 To run the code in this project, you'll need:
 - Python 3
@@ -32,13 +40,6 @@ You can install the dependencies using pip:
 
        pip install pandas matplotlib seaborn scikit-learn statsmodels
 
-## Usage
-1. Clone the repository.
-
-          git clone git@github.com:pseudocmd/Phase5-project.git
-3. Install the required dependencies.
-4. Run the Jupyter Notebook or Python script to execute the code.
-5. Follow the instructions and comments in the code for specific tasks or analyses.
 
 ## Data Description
 The dataset contains the following columns:
