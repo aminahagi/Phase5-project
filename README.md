@@ -1,6 +1,16 @@
 # Crop Price Prediction 
-## Description
-This project involves the analysis of wholesale crop prices in Kenya using real-world data. The dataset includes information such as product type, market location, wholesale price, supply volume, county, date, and USD rate. The goal is to gain insights into the trends and patterns of food prices over time and across different regions.
+This project analyzes wholesale food prices in Kenya, specifically for various crops across different markets and counties. The goal is to gain insights into the trends and patterns of food prices over time and across different regions.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#Usage)
+- [Data Description](#Data-Description)
+- [Data Preprocessing](#Data-Preprocessing)
+- [Analysis and Visualization](#Analysis-and-Visualization)
+- [Contributing](#contributing)
+- [Authors](#Authors)
 
 ## Features
 - Data cleaning and preprocessing
@@ -11,16 +21,78 @@ This project involves the analysis of wholesale crop prices in Kenya using real-
 - Potential machine learning model building (if applicable)
 
 ## Installation
-To run the code in this project, you'll need Python 3 and several libraries, including pandas, matplotlib, seaborn, scikit-learn, and statsmodels. First clone the repository into your computer:
+To run the code in this project, you'll need:
+- Python 3
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+Clone the repository into your computer:
 
        git clone git@github.com:pseudocmd/Phase5-project.git
 
 You can install the dependencies using pip:
 
-    pip install pandas matplotlib seaborn scikit-learn statsmodels
+       pip install pandas matplotlib seaborn scikit-learn statsmodels
 
 ## Usage
 1. Clone the repository.
 2. Install the required dependencies.
 3. Run the Jupyter Notebook or Python script to execute the code.
 4. Follow the instructions and comments in the code for specific tasks or analyses.
+
+## Data Description
+The dataset contains the following columns:
+
+- Product: Type of food product.
+- Market Location: Location of the market where the product is sold.
+- Wholesale Price: Wholesale price of the product.
+- Supply Volume: Volume of supply for the product.
+- County: County where the market is located.
+- Date: Date of the record.
+- USD Rate: USD exchange rate.
+- Additional engineered features: Ratio of supply volume to wholesale price, one-hot encoded product and market location, date-time features, lag features, rolling window statistics, and differenced features.
+
+
+## Data Preprocessing
+The preprocessing steps include:
+
+- Cleaning the data by removing outliers and irrelevant entries
+- Feature engineering to create new features like supply volume ratio and one-hot encoding
+- Handling missing values and converting data types
+- Extracting date-time features and creating lag features
+- Normalizing numerical features
+
+## Analysis and Visualization
+The analysis and visualization techniques employed in this project include:
+
+- Boxplots to visualize price distributions by product and county
+- Scatter plots to explore relationships between price, supply volume, and USD rate
+- Line charts to visualize trends over time for price and USD rate
+- Statistical analysis to identify correlations and trends
+
+## Contributing
+We welcome contributions from the community. If you'd like to contribute to this project, please follow these steps:
+
+### Fork the repository.
+1. Create a new branch for your feature:
+
+        git checkout -b feature-name.
+   
+2. Make your changes and commit them:
+ 
+       git commit -m 'Add feature-name'.
+3. Push to the branch:
+  
+       git push origin feature-name.
+   
+4. Create a pull request.
+
+## Contributors
+- Milton Kabute
+- Collins Cheruiyot
+- Thorne Makau
+- Joyce Muthiani
+- Kenneth Karanja
+- Amina Hagi
